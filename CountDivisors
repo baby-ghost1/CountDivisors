@@ -8,7 +8,8 @@ long long countDivisors(long long Num) {
             if(i*i == Num) count++;   // perfect square
             else count += 2;         // pair of divisors i.e. i and Num/i
         }
-    }return count;
+    }
+   return count;
 }
 
 
